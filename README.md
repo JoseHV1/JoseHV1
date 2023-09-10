@@ -1,16 +1,18 @@
-### Hi there 👋
+# Hola, soy Jose Hernandez! 👋
 
-<!--
-**JoseHV1/JoseHV1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🚀 Sobre Mi
+Desarrollador web fullstack especializado en Angular, TypeScript, Firebase y Node. Tengo una amplia experiencia en la creación de aplicaciones web modernas y escalables utilizando estas tecnologías.
 
-Here are some ideas to get you started:
+En el lado del front-end, tengo conocimiento en Angular y TypeScript, lo que me permite crear interfaces de usuario interactivas y atractivas. Utilizo las mejores prácticas de desarrollo para garantizar un código limpio y modular, lo que facilita el mantenimiento y la escalabilidad de las aplicaciones.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+En cuanto al back-end, tengo experiencia en el desarrollo de API utilizando Node.js. Utilizo frameworks como Express.js para crear servicios robustos y eficientes. Además, tengo conocimientos sólidos en bases de datos NoSQL como Firebase, lo que me permite diseñar y administrar bases de datos escalables y seguras.
+
+
+
+## 🔗 Links
+Si estás buscando un desarrollador web fullstack con experiencia en Angular, TypeScript, Firebase y Node, ¡no dudes en contactarme!
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://josehv1.github.io/)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jose-hernandez01)
+
