@@ -1,12 +1,10 @@
 # Hola, soy Jose Hernandez! 👋
 
 ## 🚀 Sobre Mi
-Desarrollador web fullstack especializado en Laravel, Angular y TypeScript. Tengo una amplia experiencia en la creación de aplicaciones web modernas y escalables utilizando estas tecnologías.
-
-En el lado del front-end, tengo conocimiento en Angular y TypeScript, lo que me permite crear interfaces de usuario interactivas y atractivas. Utilizo las mejores prácticas de desarrollo para garantizar un código limpio y modular, lo que facilita el mantenimiento y la escalabilidad de las aplicaciones.
-
-En cuanto al back-end, tengo experiencia en el desarrollo de API utilizando Laravel. Además, tengo conocimientos sólidos en bases de datos SQL, lo que me permite diseñar y administrar bases de datos escalables y seguras.
-
+Full Stack Developer +4 años de experiencia desarrollando sistemas escalables y de alto rendimiento. Especialista en Angular
+12+, TypeScript y Laravel 6+. Experto en la optimización de sistemas legacy, logrando mejoras de hasta un 35% en tiempos
+de respuesta. Experiencia colaborando en proyectos corporativos para clientes líderes como Netwey y MIT, bajo
+arquitecturas limpias y principios SOLID.
 
 
 ## 🔗 Links
