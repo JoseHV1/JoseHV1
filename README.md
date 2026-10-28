@@ -8,9 +8,9 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-jose--hernandez.dev-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://jose-hernandez.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jose--hernandez01-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jose-hernandez01)
-[![Email](https://img.shields.io/badge/Email-devjh19%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:devjh19@gmail.com)
+<a href="https://jose-hernandez.dev"><img src="https://raw.githubusercontent.com/JoseHV1/JoseHV1/main/btn-portfolio.svg" alt="Portafolio" height="60" /></a>
+<a href="https://linkedin.com/in/jose-hernandez01"><img src="https://raw.githubusercontent.com/JoseHV1/JoseHV1/main/btn-linkedin.svg" alt="LinkedIn" height="60" /></a>
+<a href="mailto:devjh19@gmail.com"><img src="https://raw.githubusercontent.com/JoseHV1/JoseHV1/main/btn-email.svg" alt="Correo" height="60" /></a>
 
 ![Profile views](https://komarev.com/ghpvc/?username=JoseHV1&label=Visitas&color=36BCF7&style=flat-square)
 ![Ubicación](https://img.shields.io/badge/📍_Venezuela-GMT--4_·_Remoto-181717?style=flat-square)
@@ -112,35 +112,11 @@ Lidero el área de automatizaciones en QSM: **15+ workflows de n8n** que conecta
 
 ## 🛠️ Stack tecnológico
 
-**Lenguajes**<br/>
-<img src="https://skillicons.dev/icons?i=js,ts,php,html,sass&theme=dark" alt="Lenguajes" />
+<div align="center">
 
-**Frameworks y librerías**<br/>
-<img src="https://skillicons.dev/icons?i=angular,nestjs,laravel,vue,nodejs,wordpress,rxjs&theme=dark" alt="Frameworks" />
-<img src="https://cdn.simpleicons.org/livewire/FB70A9" height="48" title="Livewire" alt="Livewire" />
-<img src="https://cdn.simpleicons.org/primeng/DD0031" height="48" title="PrimeNG" alt="PrimeNG" />
+<img src="https://raw.githubusercontent.com/JoseHV1/JoseHV1/main/stack.svg" alt="Stack tecnologico" width="100%" />
 
-**Bases de datos y cloud**<br/>
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,aws,docker&theme=dark" alt="Bases de datos y cloud" />
-
-**Automatización e IA**<br/>
-<img src="https://cdn.simpleicons.org/n8n/EA4B71" height="48" title="n8n" alt="n8n" />&nbsp;
-<img src="https://cdn.simpleicons.org/make/6D00CC" height="48" title="Make" alt="Make" />&nbsp;
-<img src="https://cdn.simpleicons.org/googlegemini/8E75B2" height="48" title="Gemini" alt="Gemini" />&nbsp;
-<img src="https://cdn.simpleicons.org/anthropic/D97757" height="48" title="Claude Code" alt="Claude Code" />&nbsp;
-<img src="https://cdn.simpleicons.org/telegram/26A5E4" height="48" title="Telegram" alt="Telegram" />&nbsp;
-<img src="https://cdn.simpleicons.org/hubspot/FF7A59" height="48" title="HubSpot" alt="HubSpot" />&nbsp;
-<img src="https://cdn.simpleicons.org/googledrive/4285F4" height="48" title="Google Drive" alt="Google Drive" />&nbsp;
-<img src="https://cdn.simpleicons.org/googlesheets/34A853" height="48" title="Google Sheets" alt="Google Sheets" />
-<br/>
-<sub>Y también: Microsoft Power Automate · SuiteCRM · Supabase · Gmail</sub>
-
-**Herramientas y metodologías**<br/>
-<img src="https://skillicons.dev/icons?i=git,github,gitlab,figma,postman&theme=dark" alt="Herramientas" />
-<img src="https://cdn.simpleicons.org/jira/0052CC" height="48" title="Jira" alt="Jira" />
-<img src="https://cdn.simpleicons.org/trello/0052CC" height="48" title="Trello" alt="Trello" />
-<br/>
-<sub>Scrum · SOLID · Arquitectura limpia</sub>
+</div>
 
 ---
 
@@ -157,7 +133,7 @@ Lidero el área de automatizaciones en QSM: **15+ workflows de n8n** que conecta
 
 Automatizaciones con n8n e IA · Sistemas web a medida · Optimización de legacy
 
-[![Contacto](https://img.shields.io/badge/Escr%C3%ADbeme-devjh19%40gmail.com-36BCF7?style=for-the-badge&logo=gmail&logoColor=white)](mailto:devjh19@gmail.com)
+<a href="mailto:devjh19@gmail.com"><img src="https://raw.githubusercontent.com/JoseHV1/JoseHV1/main/btn-email.svg" alt="Correo" height="60" /></a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,24&height=100&section=footer" alt="footer" width="100%"/>
 
