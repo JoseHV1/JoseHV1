@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,24&height=200&section=header&text=Jos%C3%A9%20Hernandez&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Developer%20%C2%B7%20Automation%20%26%20AI&descSize=20&descAlignY=58" alt="header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,24&height=200&section=header&text=Jose%20Hernandez&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Developer&descSize=20&descAlignY=58" alt="header" width="100%"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+%7C+5%2B+a%C3%B1os+de+experiencia;Angular+%C2%B7+NestJS+%C2%B7+Laravel+%C2%B7+WordPress;Head+of+Automation+con+n8n+%26+IA;Arquitectura+limpia+%C2%B7+SOLID+%C2%B7+AWS" alt="Typing SVG" />
@@ -143,12 +143,7 @@ Full Stack Developer con **más de 5 años de experiencia** construyendo sistema
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=JoseHV1&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoseHV1&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-
 <img src="https://streak-stats.demolab.com?user=JoseHV1&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=JoseHV1&theme=tokyo-night&hide_border=true&area=true" alt="Activity graph" width="95%" />
 
 </div>
 
