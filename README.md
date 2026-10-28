@@ -91,14 +91,11 @@ Full Stack Developer con **más de 5 años de experiencia** construyendo sistema
 
 Lidero el área de automatizaciones en QSM: **15+ workflows de n8n** que conectan CRMs, Google Workspace, bases de datos e IA para eliminar trabajo manual (**+20 % de productividad** en los equipos).
 
-```mermaid
-flowchart LR
-    A[Drive · Gmail · SuiteCRM · Webhooks] --> B{{n8n}}
-    B --> C[Gemini IA<br/>clasifica y extrae datos]
-    C --> D[(PostgreSQL · MongoDB)]
-    C --> E[Google Sheets]
-    C --> F[SuiteCRM · Fax · Telegram]
-```
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/JoseHV1/JoseHV1/main/automation-flow.svg" alt="Flujo de automatizacion: fuentes, Gemini IA y destinos" width="100%" />
+
+</div>
 
 | Automatización | Qué hace | Tecnologías |
 |---|---|---|
