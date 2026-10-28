@@ -87,6 +87,32 @@ Full Stack Developer con **más de 5 años de experiencia** construyendo sistema
 
 ---
 
+## ⚙️ Automatizaciones con n8n e IA
+
+Lidero el área de automatizaciones en QSM: **15+ workflows de n8n** que conectan CRMs, Google Workspace, bases de datos e IA para eliminar trabajo manual (**+20 % de productividad** en los equipos).
+
+```mermaid
+flowchart LR
+    A[Drive · Gmail · SuiteCRM · Webhooks] --> B{{n8n}}
+    B --> C[Gemini IA<br/>clasifica y extrae datos]
+    C --> D[(PostgreSQL · MongoDB)]
+    C --> E[Google Sheets]
+    C --> F[SuiteCRM · Fax · Telegram]
+```
+
+| Automatización | Qué hace | Tecnologías |
+|---|---|---|
+| **Análisis de documentos médicos con IA** | Convierte PDFs a imagen, los clasifica con Gemini y tabula sus datos | n8n · Gemini · SuiteCRM |
+| **Envío automático de autorizaciones** | Genera y envía por fax las autorizaciones médicas a las aseguradoras | n8n · SuiteCRM API |
+| **Pipeline de facturación** | Descarga archivos desde Drive, los normaliza y los registra en base de datos | n8n · Drive · Sheets · PostgreSQL |
+| **Reportes de autorizaciones pendientes** | Exporta datos de SuiteCRM a Drive y actualiza registros | n8n · SuiteCRM · Drive |
+| **Scraping de ofertas de concesionarios** | Extrae ofertas de sitios web hacia Google Sheets | n8n · Google Sheets |
+| **Publicación automática en LinkedIn** | Cataloga artículos con IA y publica evitando duplicados | Make · Google Sheets · IA |
+| **Asistente IA personal** | Bot de Telegram con Gemini conectado a Gmail, Supabase y HubSpot, en VPS propio | n8n · Gemini · Telegram |
+| **Extracción desde sistemas clínicos** | Automatiza la captura de datos de EHRs de escritorio | Power Automate Desktop |
+
+---
+
 ## 🛠️ Stack tecnológico
 
 **Lenguajes**
@@ -125,6 +151,13 @@ Full Stack Developer con **más de 5 años de experiencia** construyendo sistema
 ![SuiteCRM](https://img.shields.io/badge/SuiteCRM-DD1F26?style=for-the-badge&logo=suitecrm&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Make](https://img.shields.io/badge/Make-6D00CC?style=for-the-badge&logo=make&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![HubSpot](https://img.shields.io/badge/HubSpot-FF7A59?style=for-the-badge&logo=hubspot&logoColor=white)
+![Google Drive](https://img.shields.io/badge/Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)
+![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white)
+![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)
 
 **Herramientas y metodologías**
 
