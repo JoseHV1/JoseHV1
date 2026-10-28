@@ -115,70 +115,35 @@ flowchart LR
 
 ## 🛠️ Stack tecnológico
 
-**Lenguajes**
+**Lenguajes**<br/>
+<img src="https://skillicons.dev/icons?i=js,ts,php,html,sass&theme=dark" alt="Lenguajes" />
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+**Frameworks y librerías**<br/>
+<img src="https://skillicons.dev/icons?i=angular,nestjs,laravel,vue,nodejs,wordpress,rxjs&theme=dark" alt="Frameworks" />
+<img src="https://cdn.simpleicons.org/livewire/FB70A9" height="48" title="Livewire" alt="Livewire" />
+<img src="https://cdn.simpleicons.org/primeng/DD0031" height="48" title="PrimeNG" alt="PrimeNG" />
 
-**Frameworks y librerías**
+**Bases de datos y cloud**<br/>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,aws,docker&theme=dark" alt="Bases de datos y cloud" />
 
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![Livewire](https://img.shields.io/badge/Livewire-FB70A9?style=for-the-badge&logo=livewire&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
-![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white)
-![PrimeNG](https://img.shields.io/badge/PrimeNG-DD0031?style=for-the-badge&logo=primeng&logoColor=white)
+**Automatización e IA**<br/>
+<img src="https://cdn.simpleicons.org/n8n/EA4B71" height="48" title="n8n" alt="n8n" />&nbsp;
+<img src="https://cdn.simpleicons.org/make/6D00CC" height="48" title="Make" alt="Make" />&nbsp;
+<img src="https://cdn.simpleicons.org/googlegemini/8E75B2" height="48" title="Gemini" alt="Gemini" />&nbsp;
+<img src="https://cdn.simpleicons.org/anthropic/D97757" height="48" title="Claude Code" alt="Claude Code" />&nbsp;
+<img src="https://cdn.simpleicons.org/telegram/26A5E4" height="48" title="Telegram" alt="Telegram" />&nbsp;
+<img src="https://cdn.simpleicons.org/hubspot/FF7A59" height="48" title="HubSpot" alt="HubSpot" />&nbsp;
+<img src="https://cdn.simpleicons.org/googledrive/4285F4" height="48" title="Google Drive" alt="Google Drive" />&nbsp;
+<img src="https://cdn.simpleicons.org/googlesheets/34A853" height="48" title="Google Sheets" alt="Google Sheets" />
+<br/>
+<sub>Y también: Microsoft Power Automate · SuiteCRM · Supabase · Gmail</sub>
 
-**Bases de datos y cloud**
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-**Automatización e IA**
-
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white)
-![SuiteCRM](https://img.shields.io/badge/SuiteCRM-DD1F26?style=for-the-badge&logo=suitecrm&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
-![Make](https://img.shields.io/badge/Make-6D00CC?style=for-the-badge&logo=make&logoColor=white)
-![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![HubSpot](https://img.shields.io/badge/HubSpot-FF7A59?style=for-the-badge&logo=hubspot&logoColor=white)
-![Google Drive](https://img.shields.io/badge/Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)
-![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white)
-![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)
-
-**Herramientas y metodologías**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-![Trello](https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white)
-![Scrum](https://img.shields.io/badge/Scrum-009FDA?style=for-the-badge&logo=scrumalliance&logoColor=white)
-
----
-
-## 📊 Estadísticas de GitHub
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=JoseHV1&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-
-</div>
+**Herramientas y metodologías**<br/>
+<img src="https://skillicons.dev/icons?i=git,github,gitlab,figma,postman&theme=dark" alt="Herramientas" />
+<img src="https://cdn.simpleicons.org/jira/0052CC" height="48" title="Jira" alt="Jira" />
+<img src="https://cdn.simpleicons.org/trello/0052CC" height="48" title="Trello" alt="Trello" />
+<br/>
+<sub>Scrum · SOLID · Arquitectura limpia</sub>
 
 ---
 
