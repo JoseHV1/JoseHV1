@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,24&height=200&section=header&text=Jose%20Hernandez&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full%20Stack%20Developer&descSize=20&descAlignY=58" alt="header" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+%7C+5%2B+a%C3%B1os+de+experiencia;Angular+%C2%B7+NestJS+%C2%B7+Laravel+%C2%B7+WordPress;Head+of+Automation+con+n8n+%26+IA;Arquitectura+limpia+%C2%B7+SOLID+%C2%B7+AWS" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+%7C+5%2B+a%C3%B1os+de+experiencia;Angular+%C2%B7+NestJS+%C2%B7+Laravel+%C2%B7+WordPress;Automatizacion+con+n8n+%26+IA;Arquitectura+limpia+%C2%B7+SOLID+%C2%B7+AWS" alt="Typing SVG" />
 </a>
 
 <br/>
