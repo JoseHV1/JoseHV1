@@ -1,74 +1,121 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 360" width="900" height="360" font-family="'Segoe UI',Helvetica,Arial,sans-serif">
-<defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b2e"/></linearGradient>
-<linearGradient id="flow" gradientUnits="userSpaceOnUse" x1="240" y1="0" x2="660" y2="0"><stop offset="0" stop-color="#36bcf7"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
-<linearGradient id="src" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e3a5f"/><stop offset="1" stop-color="#12213a"/></linearGradient>
-<linearGradient id="ai" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6d28d9"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
-<linearGradient id="dst" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14532d"/><stop offset="1" stop-color="#0f2f3f"/></linearGradient>
-<filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000" flood-opacity="0.45"/></filter>
-<radialGradient id="aura" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.55"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
-<path id="p0" d="M240 180 C 295 180, 295 180, 350 180"/>
-<path id="p1" d="M550 180 C 610 180, 610 65, 660 65"/>
-<path id="p2" d="M550 180 C 610 180, 610 180, 660 180"/>
-<path id="p3" d="M550 180 C 610 180, 610 295, 660 295"/>
-<style>
-.dash { stroke-dasharray: 7 9; animation: move 1.2s linear infinite; }
-@keyframes move { to { stroke-dashoffset: -32; } }
-.float { animation: float 4s ease-in-out infinite; }
-.float2 { animation: float 4s ease-in-out infinite; animation-delay: -1.3s; }
-.float3 { animation: float 4s ease-in-out infinite; animation-delay: -2.6s; }
-@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
-.pulse { transform-origin: 450px 180px; animation: pulse 2.6s ease-in-out infinite; }
-@keyframes pulse { 0%,100% { transform: scale(1); opacity: .9; } 50% { transform: scale(1.18); opacity: .35; } }
-.spin { transform-origin: 450px 180px; animation: spin 14s linear infinite; }
-@keyframes spin { to { transform: rotate(360deg); } }
-.t1 { font-size: 17px; font-weight: 700; fill: #f0f6fc; }
-.t2 { font-size: 12.5px; fill: #9db2cc; }
-.tag { font-size: 11px; letter-spacing: 3px; fill: #6e7f99; font-weight: 600; }
-</style>
-</defs>
-<rect x="2" y="2" width="896" height="356" rx="22" fill="url(#bg)" stroke="#2a3350" stroke-width="2"/>
-<g opacity="0.35" stroke="#2a3350" stroke-width="1"><path d="M40 60H860M40 120H860M40 180H860M40 240H860M40 300H860"/></g>
-<text x="140" y="38" text-anchor="middle" class="tag">ENTRADA</text>
-<text x="450" y="38" text-anchor="middle" class="tag">PROCESAMIENTO</text>
-<text x="760" y="22" text-anchor="middle" class="tag">SALIDA</text>
-<g fill="none" stroke="url(#flow)" stroke-width="2.5" stroke-linecap="round" opacity="0.9">
-<use xlink:href="#p0" class="dash"/><use xlink:href="#p1" class="dash"/><use xlink:href="#p2" class="dash"/><use xlink:href="#p3" class="dash"/>
-</g>
-<g filter="url(#glow)">
-<circle r="5" fill="#36bcf7"><animateMotion dur="2.2s" repeatCount="indefinite"><mpath xlink:href="#p0"/></animateMotion></circle>
-<circle r="5" fill="#36bcf7"><animateMotion dur="2.2s" begin="1.1s" repeatCount="indefinite"><mpath xlink:href="#p0"/></animateMotion></circle>
-<circle r="5" fill="#a78bfa"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath xlink:href="#p1"/></animateMotion></circle>
-<circle r="5" fill="#a78bfa"><animateMotion dur="2.4s" begin="0.8s" repeatCount="indefinite"><mpath xlink:href="#p2"/></animateMotion></circle>
-<circle r="5" fill="#a78bfa"><animateMotion dur="2.4s" begin="1.6s" repeatCount="indefinite"><mpath xlink:href="#p3"/></animateMotion></circle>
-</g>
-<g class="float">
-<g filter="url(#shadow)"><rect x="40" y="140" width="200" height="80" rx="16" fill="url(#src)" stroke="#36bcf7" stroke-width="1.8"/></g>
-<text x="140" y="174" text-anchor="middle" class="t1">Fuentes</text>
-<text x="140" y="195" text-anchor="middle" class="t2">Drive · Gmail</text>
-<text x="140" y="211" text-anchor="middle" class="t2">SuiteCRM · Webhooks</text>
-</g>
-<circle cx="450" cy="180" r="100" fill="url(#aura)" class="pulse"/>
-<g class="spin" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="3 10" opacity="0.8"><circle cx="450" cy="180" r="92"/></g>
-<g class="float2">
-<g filter="url(#shadow)"><rect x="350" y="130" width="200" height="100" rx="20" fill="url(#ai)" stroke="#c4b5fd" stroke-width="2"/></g>
-<text x="450" y="172" text-anchor="middle" class="t1" style="font-size:20px">Gemini IA</text>
-<text x="450" y="196" text-anchor="middle" class="t2" style="fill:#e0e7ff">clasifica y extrae datos</text>
-</g>
-<g class="float">
-<g filter="url(#shadow)"><rect x="660" y="30" width="200" height="70" rx="16" fill="url(#dst)" stroke="#34d399" stroke-width="1.8"/></g>
-<text x="760" y="60" text-anchor="middle" class="t1">Bases de datos</text>
-<text x="760" y="80" text-anchor="middle" class="t2">PostgreSQL · MongoDB</text>
-</g>
-<g class="float2">
-<g filter="url(#shadow)"><rect x="660" y="145" width="200" height="70" rx="16" fill="url(#dst)" stroke="#34d399" stroke-width="1.8"/></g>
-<text x="760" y="175" text-anchor="middle" class="t1">Google Sheets</text>
-<text x="760" y="195" text-anchor="middle" class="t2">reportes y tablas</text>
-</g>
-<g class="float3">
-<g filter="url(#shadow)"><rect x="660" y="260" width="200" height="70" rx="16" fill="url(#dst)" stroke="#34d399" stroke-width="1.8"/></g>
-<text x="760" y="290" text-anchor="middle" class="t1">Acciones</text>
-<text x="760" y="310" text-anchor="middle" class="t2">SuiteCRM · Fax · Telegram</text>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 360" width="900" height="360" font-family="'Segoe UI',Helvetica,Arial,sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo3YTkwMWRkOS02NzVlLTRjNzItODQ0Ni1jMjE2Yjc1NDQ1ODIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaDauB2osWirCvcW2m/LhpH0AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDoyNWNlZTJhZC0wYjBhLTRhNTUtOWM4Yy0xNmEwZWVhZGIxNDFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoktDRitdgB09GWRCCiMr/nAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggMsKI99cd85i04unyYSk0HLD3qMbMuvakAe0vKKTyinSkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaPBrqI4Jofhq9Ur/Ra/tGR4AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCDc9vSHaz3taQL3Sfur10EXsyVWREKx9QF9Sa4k6jPdbWRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBj1Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjdhOTAxZGQ5LTY3NWUtNGM3Mi04NDQ2LWMyMTZiNzU0NDU4Mi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjY3OTNjNzBjLTYzZTItNDNmYy05MjIwLTZlNDk4MWJlZjMxZXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAywoj31x3zmLTi6fJhKTQcsPeoxsy69qQB7S8opPKKdKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg+UOh3EhJ4gkWmUxJexVCxeWAgVIlrTb7Q/QRTviL5ZaiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg3kcPQIX07VX53zSDcmHXCUtXOqitCLIB556o4yQk6lF0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQAqd4BRmikp6RRp4woP0TBkN5oYKGwAPm+2Vt53FqYFXWxDdbrpOPH3ufpgP2c/Grwe1BCez4Em7yE5OjuUw8D8=</c2pa:manifest></metadata>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b2e"/>
+    </linearGradient>
+    <linearGradient id="flow" gradientUnits="userSpaceOnUse" x1="240" y1="0" x2="660" y2="0">
+      <stop offset="0" stop-color="#36bcf7"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="src" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e3a5f"/>
+      <stop offset="1" stop-color="#12213a"/>
+    </linearGradient>
+    <linearGradient id="ai" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6d28d9"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="dst" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14532d"/>
+      <stop offset="1" stop-color="#0f2f3f"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <radialGradient id="aura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <path id="p0" d="M240 180 C 295 180, 295 180, 350 180"/>
+    <path id="p1" d="M550 180 C 610 180, 610 65, 660 65"/>
+    <path id="p2" d="M550 180 C 610 180, 610 180, 660 180"/>
+    <path id="p3" d="M550 180 C 610 180, 610 295, 660 295"/>
+    <style>
+      .dash { stroke-dasharray: 7 9; animation: move 1.2s linear infinite; }
+      @keyframes move { to { stroke-dashoffset: -32; } }
+      .float { animation: float 4s ease-in-out infinite; }
+      .float2 { animation: float 4s ease-in-out infinite; animation-delay: -1.3s; }
+      .float3 { animation: float 4s ease-in-out infinite; animation-delay: -2.6s; }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+      .pulse { transform-origin: 450px 180px; animation: pulse 2.6s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { transform: scale(1); opacity: .9; } 50% { transform: scale(1.18); opacity: .35; } }
+      .spin { transform-origin: 450px 180px; animation: spin 14s linear infinite; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      .t1 { font-size: 17px; font-weight: 700; fill: #f0f6fc; }
+      .t2 { font-size: 12.5px; fill: #9db2cc; }
+      .tag { font-size: 11px; letter-spacing: 3px; fill: #6e7f99; font-weight: 600; }
+    </style>
+  </defs>
+
+  <!-- panel -->
+  <rect x="2" y="2" width="896" height="356" rx="22" fill="url(#bg)" stroke="#2a3350" stroke-width="2"/>
+  <g opacity="0.35" stroke="#2a3350" stroke-width="1">
+    <path d="M40 60H860M40 120H860M40 180H860M40 240H860M40 300H860"/>
+  </g>
+
+  <text x="140" y="38" text-anchor="middle" class="tag">ENTRADA</text>
+  <text x="450" y="38" text-anchor="middle" class="tag">PROCESAMIENTO</text>
+  <text x="760" y="22" text-anchor="middle" class="tag">SALIDA</text>
+
+  <!-- connection lines -->
+  <g fill="none" stroke="url(#flow)" stroke-width="2.5" stroke-linecap="round" opacity="0.9">
+    <use xlink:href="#p0" class="dash"/>
+    <use xlink:href="#p1" class="dash"/>
+    <use xlink:href="#p2" class="dash"/>
+    <use xlink:href="#p3" class="dash"/>
+  </g>
+
+  <!-- travelling particles -->
+  <g filter="url(#glow)">
+    <circle r="5" fill="#36bcf7"><animateMotion dur="2.2s" repeatCount="indefinite"><mpath xlink:href="#p0"/></animateMotion></circle>
+    <circle r="5" fill="#36bcf7"><animateMotion dur="2.2s" begin="1.1s" repeatCount="indefinite"><mpath xlink:href="#p0"/></animateMotion></circle>
+    <circle r="5" fill="#a78bfa"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath xlink:href="#p1"/></animateMotion></circle>
+    <circle r="5" fill="#a78bfa"><animateMotion dur="2.4s" begin="0.8s" repeatCount="indefinite"><mpath xlink:href="#p2"/></animateMotion></circle>
+    <circle r="5" fill="#a78bfa"><animateMotion dur="2.4s" begin="1.6s" repeatCount="indefinite"><mpath xlink:href="#p3"/></animateMotion></circle>
+  </g>
+
+  <!-- source -->
+  <g class="float">
+    <g filter="url(#shadow)">
+      <rect x="40" y="140" width="200" height="80" rx="16" fill="url(#src)" stroke="#36bcf7" stroke-width="1.8"/>
+    </g>
+    <text x="140" y="174" text-anchor="middle" class="t1">Fuentes</text>
+    <text x="140" y="195" text-anchor="middle" class="t2">Drive · Gmail</text>
+    <text x="140" y="211" text-anchor="middle" class="t2">SuiteCRM · Webhooks</text>
+  </g>
+
+  <!-- AI core -->
+  <circle cx="450" cy="180" r="100" fill="url(#aura)" class="pulse"/>
+  <g class="spin" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="3 10" opacity="0.8">
+    <circle cx="450" cy="180" r="92"/>
+  </g>
+  <g class="float2">
+    <g filter="url(#shadow)">
+      <rect x="350" y="130" width="200" height="100" rx="20" fill="url(#ai)" stroke="#c4b5fd" stroke-width="2"/>
+    </g>
+    <text x="450" y="172" text-anchor="middle" class="t1" style="font-size:20px">Gemini IA</text>
+    <text x="450" y="196" text-anchor="middle" class="t2" style="fill:#e0e7ff">clasifica y extrae datos</text>
+  </g>
+
+  <!-- destinations -->
+  <g class="float">
+    <g filter="url(#shadow)"><rect x="660" y="30" width="200" height="70" rx="16" fill="url(#dst)" stroke="#34d399" stroke-width="1.8"/></g>
+    <text x="760" y="60" text-anchor="middle" class="t1">Bases de datos</text>
+    <text x="760" y="80" text-anchor="middle" class="t2">PostgreSQL · MongoDB</text>
+  </g>
+  <g class="float2">
+    <g filter="url(#shadow)"><rect x="660" y="145" width="200" height="70" rx="16" fill="url(#dst)" stroke="#34d399" stroke-width="1.8"/></g>
+    <text x="760" y="175" text-anchor="middle" class="t1">Google Sheets</text>
+    <text x="760" y="195" text-anchor="middle" class="t2">reportes y tablas</text>
+  </g>
+  <g class="float3">
+    <g filter="url(#shadow)"><rect x="660" y="260" width="200" height="70" rx="16" fill="url(#dst)" stroke="#34d399" stroke-width="1.8"/></g>
+    <text x="760" y="290" text-anchor="middle" class="t1">Acciones</text>
+    <text x="760" y="310" text-anchor="middle" class="t2">SuiteCRM · Fax · Telegram</text>
+  </g>
 </svg>
