@@ -12,9 +12,8 @@
 <a href="https://linkedin.com/in/jose-hernandez01"><img src="https://raw.githubusercontent.com/JoseHV1/JoseHV1/main/btn-linkedin.svg" alt="LinkedIn" height="60" /></a>
 <a href="mailto:devjh19@gmail.com"><img src="https://raw.githubusercontent.com/JoseHV1/JoseHV1/main/btn-email.svg" alt="Correo" height="60" /></a>
 
-![Profile views](https://komarev.com/ghpvc/?username=JoseHV1&label=Visitas&color=36BCF7&style=flat-square)
-![Ubicación](https://img.shields.io/badge/📍_Venezuela-GMT--4_·_Remoto-181717?style=flat-square)
-![Disponible](https://img.shields.io/badge/Estado-Disponible_para_proyectos-2ea44f?style=flat-square)
+<img src="https://raw.githubusercontent.com/JoseHV1/JoseHV1/main/pill-location.svg" alt="Venezuela GMT-4 Remoto" height="32" />
+<img src="https://raw.githubusercontent.com/JoseHV1/JoseHV1/main/pill-status.svg" alt="Disponible para proyectos" height="32" />
 
 </div>
 
